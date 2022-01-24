@@ -1,0 +1,40 @@
+@import "../../../assets/scss/variables";
+.sidebar {
+    ul {
+        li {
+            width: 180px;
+            height: 40px;
+            a{
+                &:hover{
+                    background-color: #F0F7FF;
+                    border-radius: 10px;
+                    color: $secondary;
+                    font-weight: bold;
+                }
+                
+                .filter-color{
+                    filter: invert(36%) sepia(88%) saturate(516%) hue-rotate(162deg) brightness(96%) contrast(97%);
+                }
+            }     
+        }
+    }
+    .area-logo {
+        height: $header-height;
+    }
+}
+
+.filter-color{
+   filter: invert(93%) sepia(3%) saturate(11%) hue-rotate(12deg) brightness(91%) contrast(81%);
+}
+
+.active{
+        background-color: #F0F7FF;
+        border-radius: 5px;
+        a{
+            color: $secondary;
+            font-weight: bold;
+        }
+        .filter-color{
+            filter: invert(36%) sepia(88%) saturate(516%) hue-rotate(162deg) brightness(96%) contrast(97%);
+        }  
+}

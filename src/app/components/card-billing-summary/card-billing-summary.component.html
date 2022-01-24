@@ -1,0 +1,29 @@
+<div class="card">
+    <div class="card-body px-4">
+        <h5 class="card-title">Billing summary</h5>
+        
+        <table class="table table-borderless fs-14">
+            <thead>
+              <tr class="text-muted fw-normal">
+                <th scope="col">Service</th>
+                <th scope="col">Type</th>
+                <th scope="col">Date</th>
+                <th scope="col">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-bottom" *ngFor="let item of billing">
+                <td><div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">{{item.service}}</label>
+                  </div>
+                </td>
+                <td class="text-muted">$/{{item.type | titlecase}}</td>
+                <td class="text-muted">{{(item.date * 1000) | date: 'dd MMM yyyy'}}</td>
+                <td class="lato fw-bold">${{item.amount}}</td>
+              </tr>
+              
+            </tbody>
+          </table>
+    </div>
+</div>

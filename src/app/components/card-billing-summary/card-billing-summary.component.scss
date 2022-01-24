@@ -1,0 +1,21 @@
+@import "../../../assets/scss/variables";
+
+.card {
+    width: 100%;
+    border: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+}
+table {
+    thead {
+        tr {
+            th {
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+tbody > tr:last-child > td {
+    border: 0;
+  }

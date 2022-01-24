@@ -1,0 +1,77 @@
+@import "../../../assets/scss/variables";
+.button-circle {
+    background-color: $yellow;
+    border-radius: 50%;
+    padding: 0.2px 6px;
+    font-weight: bold;
+}
+
+.button-style {
+    width: 80px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 13px;
+}
+
+.lato { 
+    font-family: $lato;
+}
+
+.box-contact {
+background-image: url("../../../assets/img/redcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 180px;
+  .box-contact-text-area {
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    color: $white;
+    font-size: 20px;
+    .box-contact-text {  
+        width: 77px;
+    }
+}
+}
+
+@media (max-width: 1600px) { 
+    .box-contact {
+        .box-contact-text-area {
+            bottom: 2rem;
+            left: 1.2rem;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 1200px) { 
+    .box-contact {
+        .box-contact-text-area {
+            bottom: 2rem;
+            left: 4rem;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 992px) { 
+    .box-contact {
+        .box-contact-text-area {
+            bottom: 2rem;
+            left: 2.5rem;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) { 
+    .box-contact {
+        .box-contact-text-area {
+            bottom: 3rem;
+            left: 1.2rem;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+@import "./typography";
+
+$primary:#404040;
+$secondary: #197BBD;
+$green: #439A86;
+$red: #BB4430;
+$yellow: #FFC145;
+$white: #FFFFFF;
+$gray: #C7C7C7;
+$gray-light: #E8E8E8;
+$gray-dark: #696969;
+$light: #AEAEAE !important;
+// $secondaryHover:#055f8f;
+// $success: #2CC84D;
+// $info: #6f42c1;
+// $warning: #cfad67;
+// $danger: #F9423A;
+// $dark: #002B49;
+// $gold:#D4AD67;
+// $goldHover:#c79332;
+// $red: #F9423A;
+// $redHover:#c4423c;
+// $redSoft: #DE5564;
+// $green:#2CC84D;
+// $white: #fff;
+// $black: #000000;
+// $light-gray: #E6E9EB;
+// $lightHover: #E2E6EA;
+// $gray-dark: #343a40;
+// $gray-ghost: #F8F8F9;
+
+
+$quicksand: 'Quicksand', sans-serif;
+$lato: 'Lato', sans-serif;
+
+$header-height: 120px;
+
+.cpointer {
+ cursor: pointer;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-32 {
+    font-size: 32px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.text-muted {
+    color: $light;
+    font-weight: 400;
+}
+

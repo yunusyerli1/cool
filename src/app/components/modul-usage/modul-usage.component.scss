@@ -1,0 +1,46 @@
+@import "../../../assets/scss/variables";
+
+.progress {
+    height: 0.7rem;
+}
+.bg-orange {
+    background: linear-gradient(270deg, #FCAE73 0%, #F79042 99.18%);
+}
+.bg-green {
+    background: linear-gradient(90deg, #209D43 0%, #2BC255 100%);
+}
+.bg-blue {
+    background: #70A6E8;
+}
+.bg-antwhite {
+    background-color: #ffeada;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+}
+.bg-lavender {
+    background-color: #e4f0ff;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+}
+.bg-honeydew {
+    background-color: #ddf9e4;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+}
+.box {
+    margin-bottom: 2rem;
+}
+
+.box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 42px;
+}
+
+.font-style {
+    font-family: $lato;
+    font-size: 24px;
+    font-weight: 500;
+    color: $gray-dark;
+    line-height: 1;
+}
+

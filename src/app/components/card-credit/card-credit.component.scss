@@ -1,0 +1,77 @@
+@import "../../../assets/scss/variables";
+
+.blue {
+    color: $secondary;
+}
+
+.green {
+    color: $green;
+}
+
+.red {
+    color: $red;
+}
+
+.bg-blue {
+    background-color: $secondary;
+}
+
+.lato {
+    font-family: $lato;
+}
+
+.fs-7  {
+    font-size: 7px;
+}
+.fs-8 {
+    font-size: 9px;
+}
+.fs-12 {
+    font-size: 12.6px;
+}
+
+.fs-21 {
+    font-size: 21.5px;
+}
+.op-4 {
+    opacity: 0.4;
+}
+.fw-500 {
+    font-weight: 500;
+}
+
+.card {
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    .progress {
+        height: 0.7rem;
+    }
+    .divider {
+        display: inline-block;
+        width: 0;
+        height: 13em;
+        border-left: 1px solid $gray-light;
+    }
+}
+
+.card-image {
+    position: relative;
+    background-image: url("../../../assets/img/card.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 206px;
+    width: 320px;
+    .card-text {
+        position: absolute;
+        top: 0;
+        color: $white;
+        padding: 1.5rem;
+        .margin-top-40 {
+            margin-top: 40px;
+        }
+    }
+}
+

@@ -1,0 +1,23 @@
+@import "../../../assets/scss/variables";
+
+.card {
+    width: 100%;
+   //min-width: 120px;
+    //min-width: 169px;
+    //height: 158px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+}
+
+.lato {
+    font-family: $lato;
+}
+
+.gray-dark {
+    color: $gray-dark;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
